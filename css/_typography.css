@@ -1,0 +1,88 @@
+/* add everything regarding typography here */
+
+
+/* global typograhy */
+h1{
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+h2{
+    font-size:1.5rem;
+    font-weight: 700;
+}
+
+h3{
+    font-size:1.25rem;
+    font-weight:700 ;
+}
+
+h1, h2, h3, p{
+    margin: 0rem 0rem 0.625rem 0rem;
+    font-family:"open sans" ,"sans-serif";
+    text-transform: capitalize;
+}
+
+h1, h2, h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+p{
+    font-size: 1.125rem;
+    margin: 0px;
+    font-weight: 500;
+}
+
+
+.white-text{
+    color: var(--txt-white);
+}
+
+
+/* specified typography */
+
+
+
+/* size */
+.hero-img,
+.preview-card-img{
+    font-size: var(--hide-text);
+}
+
+.hero-text :nth-child(1){
+    font-size:var(--hero-50px-30px);
+}
+
+
+/* color  */
+.hero-text{
+    color: var(--main-blue);
+}
+
+
+/* weigth */
+
+.main-card p{
+    font-weight: 700;
+}
+
+
+/* orientation*/
+
+.main-card p,
+.start-time{
+    text-align: center;
+}
+
+.visit-grid p{
+    text-align: left;
+}
+
+
+
+
+
+
+
+

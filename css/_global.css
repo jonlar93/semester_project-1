@@ -1,0 +1,54 @@
+
+/* styles i use global over the website  */
+
+body{
+    background-color: var(--main-white);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main{
+    background-color:var(--main-blue) ;
+}
+
+a{
+    text-decoration: none;
+    color: var(--txt-white);
+}
+
+
+.white-bg{
+    width: 100vw;
+    background-color: var(--main-white);
+}
+
+.title-banner{
+    background-image: url(/images/title-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2vh;
+}
+
+.title-banner h1{
+    color: var(--txt-white);
+    text-align: center;
+    width: var(--full-size-width);
+    margin-inline: auto;
+    border-block-end: solid 7px;
+    padding-bottom: 5px;
+}
+
+.bg-blue{
+    background-color: var(--light-blue);
+}
+
+.bg-white{
+    background-color: var(--main-white);
+}
+
+.section-padding{
+    padding: 50px 0px;
+}
+
+

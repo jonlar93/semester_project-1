@@ -1,0 +1,18 @@
+
+
+@media (max-width: 619px){
+    .preview-card{
+        grid-template-columns: 1fr;
+    }
+
+    .preview-card-img{
+        height: 200px;
+        border-radius: 30px;
+        background-size: cover;
+    }
+
+    .main-card{
+        width: var(--full-size-width);
+    }
+
+}

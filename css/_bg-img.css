@@ -1,0 +1,66 @@
+/* add background image property values here  */
+
+
+/* aspect ratio  */
+.homepage-event-section img{
+    aspect-ratio:auto;
+    object-fit: cover;
+    object-position: 0% 50%;
+}
+
+
+/* images */
+
+.hero-img{
+    background-image: url(/images/vr-hero.jpg);
+}
+
+.bg-img{
+    background-image: url(/images/bg-img-exhibits.jpg);
+}
+
+.cosmology{
+    background-image: url(/images/cosmology.jpg);
+}
+
+.evolution{
+    background-image: url(/images/evolution.jpg);
+}
+
+
+.biology{
+    background-image: url(/images/medicin-2.jpg);
+}
+
+.robotics{
+    background-image: url(/images/robot.jpg);
+}
+
+
+/* values  */
+.hero-img{
+    background-position: top, center;
+}
+
+.bg-img,
+.biology,
+.robotics{
+    background-position: center center;
+}
+
+.cosmology{
+    background-position: bottom right;
+}
+
+.hero-img,
+.bg-img,
+.preview-card-img{
+    background-size: cover;
+}
+
+.hero-img,
+.bg-img,
+.preview-card-img{
+    background-repeat: no-repeat;
+}
+

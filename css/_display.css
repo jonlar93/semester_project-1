@@ -1,0 +1,107 @@
+/* only entries related to the display property here */
+
+
+.hero-container,
+.homepage-event-card,
+.homepage-event-text,
+.homepage-workshop-text,
+.preview-section,
+.preview-card,
+.visit-grid,
+.contact-info{
+    display: grid;
+}
+
+.section-flex,
+.contact-social,
+.hero-text{
+    display: flex;
+}
+
+.hero-container,
+.homepage-event-card{
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.homepage-workshop-text,
+.visit-grid{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.preview-card{
+    grid-template-columns: 2fr 1fr;
+}
+
+.contact-info{
+    grid-template-columns: 1fr 1fr;
+}
+
+.hero-container,
+.homepage-event-card,
+.homepage-event-text,
+.homepage-workshop-text,
+.section-flex{
+    gap: 20px;
+}
+
+.hero-text{
+    gap: 35px;
+}
+
+
+.preview-section{
+    gap: 50px;
+}
+
+
+
+.homepage-event-text{
+    grid-template-columns: 1fr;
+}
+
+
+.hero-text{
+    flex-direction: column;
+}
+
+
+.section-flex{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.section-flex{
+    justify-content: center;
+}
+
+.preview-section,
+.visit-grid,
+.contact-info{
+    justify-items: center;
+}
+
+.visit-grid,
+.contact-info{
+    align-items: center;
+}
+
+.start-time,
+.homepage-event-text a,
+.homepage-workshop-text a{
+    justify-self: center;
+}
+
+.hero-text a,
+.homepage-event-section img{
+    align-self: center;
+}
+
+.start-time,
+.homepage-event-text a,
+.homepage-workshop-text a{
+    align-self: center;
+}
+
+.contact-social{
+    justify-content: space-between;
+}
