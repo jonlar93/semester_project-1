@@ -1,5 +1,42 @@
 
 
+.coupon{
+    display: none;
+}
+
+@media (min-width: 1000px){
+    /* coupon code reveal  */
+.hero-img:hover{
+    transition: 3s;
+    margin-left: 300px;
+}
+
+.hero-img{
+    z-index: 2;
+}
+
+.hero-container{
+    position: relative;
+}
+
+.coupon{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    width: 200px;
+    z-index: 1;
+    background-color: var(--main-blue);
+    padding: 20px;
+    border-radius: 30px;
+    color: var(--txt-white);
+
+}
+
+/* coupon code reveal  */
+
+}
+
 @media (max-width: 619px){
     .preview-card{
         grid-template-columns: 1fr;
