@@ -20,12 +20,12 @@ h3{
 h1, h2, h3, p{
     margin: 0rem 0rem 0.625rem 0rem;
     font-family:"open sans" ,"sans-serif";
-    text-transform: capitalize;
 }
 
 h1, h2, h3{
     text-align: center;
     text-decoration: underline;
+    text-transform: uppercase;
 }
 
 p{
